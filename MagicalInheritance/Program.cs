@@ -17,8 +17,15 @@ namespace MagicalInheritance
             }
             else
             {
-                //creating a new Pupil class which sets the title
-                Pupil p = new Pupil("Mezil-kree");
+                Console.WriteLine("Are you a Mage, Archmage, or Pupil? Please enter one.");
+                string userTypeChoice = Console.ReadLine();
+
+               
+                  //  case 1:
+                  //  Console.WriteLine("Case 1");
+                  //  break;
+                    //creating a new Pupil class which sets the title
+                    Pupil p = new Pupil("Mezil-kree");
 
                 //creating a new Storm class and giving it the value of a pupil (p) with the parameters that CastWindStorm holds in the Pupil class
 
